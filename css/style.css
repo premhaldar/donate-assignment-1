@@ -151,11 +151,12 @@ body{
 .update_box{
     background: #f5eeca;
     margin: 50px 290px;
+    text-align: center;
 }
 .update_box .update_content{
     padding:110px 180px;
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 .update_box .update_content .email input{
     border: none;
