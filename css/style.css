@@ -1,5 +1,5 @@
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /* ----------------------
     banner started
@@ -55,8 +55,34 @@ body{
     font-weight: 700;
 }
 #donate .donate_heading p{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
+}
+#donate .donate_amount{
+    margin: 10px 315px 10px 315px;
+    display: flex;
+    
+    
+}
+#donate .donate_amount .box{
+  margin-left: 15px;
+  text-align: center;
+  width: 18%;
+
+}
+#donate .donate_amount .box p{
+    background: #f0e2e2;
+    padding: 40px 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 800;
+    color: #978b8b;
+    transition: .4s;
+}
+#donate .donate_amount .box p:hover{
+    color: #ca3539;
+    border: 2px solid #ca3539;
 }
 /* ----------------------
     donate part end
