@@ -1,6 +1,27 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.donate_button{
+    padding-top: 50px;
+    text-align: center;
+}
+.donate_button a{
+    text-decoration: none;
+    background: #e85d61;
+    text-transform: capitalize;
+    padding: 18px 10px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.donate_button a:hover{
+    background: #fff;
+    color:#ca3539;
+    border: 2px solid #ca3539;
+}
 /* ----------------------
     banner started
 ---------------------- */
@@ -22,24 +43,7 @@ body{
     font-weight: 400;
     color: #fff;
 }
-#banner .content .donate_button{
-    padding-top: 50px;
-}
-#banner .content .donate_button a{
-    text-decoration: none;
-    background: #c8351b;
-    text-transform: capitalize;
-    padding: 15px;
-    color: #fff;
-    font-weight: 700;
-    border-radius: 10px;
-    font-size: 20px;
-    transition: .4s;
-}
-#banner .content .donate_button a:hover{
-    background: #fff;
-    color:#c8351b;
-}
+
 /* ----------------------
     banner end
 ---------------------- */
@@ -91,9 +95,9 @@ body{
 }
 #donate .donate_input input{
     border: none;
-    border-bottom: 3px solid #efb8af!important;
+    border-bottom: 3px solid #999493!important;
     text-align: center;
-    width: 52%;
+    width: 50%;
     height: 10px;
     font-size: 20px;
     padding: 10px;
