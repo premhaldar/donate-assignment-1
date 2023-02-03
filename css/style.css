@@ -1,7 +1,9 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
-
+/* ----------------------
+    banner started
+---------------------- */
 #banner {
     background-image: url(../images/donation3.jpg);
     background-repeat: no-repeat;
@@ -38,4 +40,25 @@ body{
     background: #fff;
     color:#c8351b;
 }
+/* ----------------------
+    banner end
+---------------------- */
+/* ----------------------
+    donate part started
+---------------------- */
+#donate .donate_heading{
+    text-align: center;
+    margin: 100px 350px 0 350px;
+}
+#donate .donate_heading h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+#donate .donate_heading p{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* ----------------------
+    donate part end
+---------------------- */
  
