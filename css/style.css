@@ -73,6 +73,7 @@ body{
 #donate .donate_amount .box p{
     background: #f0e2e2;
     padding: 40px 20px;
+    border: 2px solid #f0e2e2;
     border-radius: 5px;
     justify-content: space-between;
     font-size: 25px;
@@ -83,6 +84,20 @@ body{
 #donate .donate_amount .box p:hover{
     color: #ca3539;
     border: 2px solid #ca3539;
+    background: #efb8af;
+}
+#donate .donate_input{
+    text-align: center;
+}
+#donate .donate_input input{
+    border: none;
+    border-bottom: 3px solid #efb8af!important;
+    text-align: center;
+    width: 52%;
+    height: 10px;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: capitalize;
 }
 /* ----------------------
     donate part end
