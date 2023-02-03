@@ -22,6 +22,18 @@ body{
     color:#ca3539;
     border: 2px solid #ca3539;
 }
+.donate_heading{
+    text-align: center;
+    margin: 100px 350px 0 350px;
+}
+.donate_heading h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.donate_heading p{
+    font-size: 16px;
+    font-weight: 400;
+}
 /* ----------------------
     banner started
 ---------------------- */
@@ -50,17 +62,8 @@ body{
 /* ----------------------
     donate part started
 ---------------------- */
-#donate .donate_heading{
-    text-align: center;
-    margin: 100px 350px 0 350px;
-}
-#donate .donate_heading h1{
-    font-size: 50px;
-    font-weight: 700;
-}
-#donate .donate_heading p{
-    font-size: 16px;
-    font-weight: 400;
+#donate{
+    margin-bottom: 180px;
 }
 #donate .donate_amount{
     margin: 10px 315px 10px 315px;
@@ -105,5 +108,47 @@ body{
 }
 /* ----------------------
     donate part end
+---------------------- */
+/* ----------------------
+    donate_plan part start
+---------------------- */
+#donate_plan .donate_plan_box{
+    display: flex;
+    margin: 80px 150px 0 150px;
+}
+#donate_plan .donate_plan_box .plan_box{
+    width: 70%;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    margin-left: 25px;
+    padding: 50px 35px 35px 20px;
+
+}
+#donate_plan .donate_plan_box .plan_box h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+#donate_plan .donate_plan_box .plan_box p{
+    color: #7f7c7b;
+    font-size: 15px;
+    font-weight: 400;
+}
+#p_one{
+    background: #d5f1f3;
+}
+#p_two{
+    background: #f3dcdc;
+}
+#p_three{
+    background: #f5eeca;
+}
+/* ----------------------
+    donate_plan part end
+---------------------- */
+/* ----------------------
+    update part start
+---------------------- */
+/* ----------------------
+    update part end
 ---------------------- */
  
