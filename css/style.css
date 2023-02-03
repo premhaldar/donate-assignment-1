@@ -148,7 +148,54 @@ body{
 /* ----------------------
     update part start
 ---------------------- */
+.update_box{
+    background: #f5eeca;
+    margin: 50px 290px;
+}
+.update_box .update_content{
+    padding:110px 180px;
+    display: flex;
+    text-align: center;
+}
+.update_box .update_content .email input{
+    border: none;
+    background: #cabcbc;
+    padding: 12px 50px 12px 10px;
+    font-size: 16px;
+    color: #292827;
+    border-radius: 5px 0 0 5px;
+}
+.update_box .update_content .Subscribe{
+    margin-top:10px ;
+}
+.update_box .update_content .Subscribe a{
+    background: #e85d61;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+}
 /* ----------------------
     update part end
+---------------------- */
+/* ----------------------
+    footer part start
+---------------------- */
+footer{
+    background: #000;
+    text-align: center;
+    padding: 30px 0;
+}
+footer h1{
+    color: tomato;
+    font-family: 'Pacifico', cursive !important;
+}
+footer p{
+    color: #cabcbc;
+}
+/* ----------------------
+    footer part end
 ---------------------- */
  
